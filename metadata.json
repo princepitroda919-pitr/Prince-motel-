@@ -1,0 +1,6 @@
+{
+  "name": "Prince Motel",
+  "description": "Luxurious out-of-country boutique motel featuring premium AC suites, cozy normal non-AC rooms, and a stellar curated multi-cuisine restaurant specializing in exquisite veg and non-veg delicacies.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

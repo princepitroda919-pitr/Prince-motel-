@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Custom scrollbar to match black & green luxury aesthetic */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+::-webkit-scrollbar-thumb {
+  background: #113c1d;
+  border-radius: 0px; /* Precise geometric sharp corners */
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #22c55e;
+}
+
+/* Glassmorphism & Solid geometric panel accent glows */
+.neon-glow-green {
+  box-shadow: 0 0 25px rgba(34, 197, 94, 0.12);
+}
+
+.text-neon-glow {
+  text-shadow: 0 0 10px rgba(34, 197, 94, 0.4);
+}
